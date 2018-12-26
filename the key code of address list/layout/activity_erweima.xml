@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/laba_tv" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentTop="true" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:text="本app由安卓小白制作" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/laba_tv2" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/laba_tv" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:text="欢迎各位扫码评判指正" /> -->
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您有未查看消息\n点击此处查看!"
+        android:textSize="14dp"
+        android:background="#FFFFFF"
+        android:textColor="#ff0000" />
+
+    <ImageSwitcher
+        android:id="@+id/imageswitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp" >
+    </ImageSwitcher>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/next" />
+
+    <Button
+        android:id="@+id/erweima_back"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#f4f4f4"
+        android:gravity="top|right"
+        android:text="返回"
+        android:textSize="30dp" />
+
+</RelativeLayout>
